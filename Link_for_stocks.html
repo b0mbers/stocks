@@ -38,7 +38,19 @@
 <td style="color:blue;"><center>$83.51</td>
 <td style="color:blue;"><center>$84.20</td>
 <a href="https://www.bloomberg.com/markets/stocks">Check Live Stock Prices Right Now</a>
-<img src="https://www.varchev.com/wp-content/uploads/2017/02/iStock_000046441004Small.jpg" width=247px>
+<img src="https://www.varchev.com/wp-content/uploads/2017/02/iStock_000046441004Small.jpg" width=0px height = "0" id= "imgA">
+<canvas id="myCanvas" width="550" height="450" style="border:1px solid #000000;">
+<script>
+var canvas = document.getElementById("myCanvas")
+var ctx = canvas.getContext("2d")
+var imgA = document.getElementById("imgA")
+ctx.font = "40px Ariel"
+ctx.fillStyle = "purple"
+ctx.fillText('STOCK DATA', 0, 40)
+ctx.drawImage(imgA,0,100,247,200)
+</script>
+<canvas/>
+
 
 
 
